@@ -10,14 +10,17 @@
 <body>
     <div class="container">
         <div class="conatiner_left">
-            <h1> CONVERCION DE TEMPERATURA Fª->Cª</h1>
+            <h1> CONVERCION DE TEMPERATURA Fº->Cº</h1>
+            <label for="farenheit"> Temperatura a Farenheit</label>
+            <input type="number" id="farenheit">
+            <div id="celcius"> </div>
         </div>
         <div class="container_right">
-            <span> 100ª</span>
-            <div class="termometro">
-
+            <span> 100º</span>
+            <div id="termometro">
+                <div id="temperatura"></div>
             </div>
-            <span> 0ª</span>
+            <span> 0º</span>
         </div>
 
         <button id="button"> Convert </button>
