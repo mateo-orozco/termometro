@@ -56,3 +56,12 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
     border-radius: 5px  ;
     border: none;
 }
+#reset{
+    grid-area: bot;
+    width: 100px;
+    height: 30px;
+    display: block;
+    background-color: dodgerblue;
+    border-radius: 5px  ;
+    border: none;
+}
